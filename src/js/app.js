@@ -1,5 +1,3 @@
-export default function demo(value) {
-	return `Demo: ${value}`;
-}
+import Controller from "./Controller.js";
 
-console.log("app.js included");
+new Controller("#app");
